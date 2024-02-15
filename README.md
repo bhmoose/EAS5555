@@ -11,16 +11,16 @@ Derecho / WRF How-To Guide
   * Enter password for NCAR account when prompted and complete two-factor authentication.
 
 (2) Copy the WRF and WPS executables to your home directory
-  Once within Derecho, change directories to the location of the WRF and WPS executables:
-cd /glade/work/wrfhelp/derecho_pre_compiled_code
-  Copy the files contained in the wrfv4.1 and wpsv4.1 directories to the home directory:
-cp -rp [wrfv4.1 or wpsv4.1] /~
-		This command copies the relevant directories named in the command to
+* Once within Derecho, change directories to the location of the WRF and WPS executables:
+	* cd /glade/work/wrfhelp/derecho_pre_compiled_code
+* Copy the files contained in the wrfv4.1 and wpsv4.1 directories to the home directory:
+	* cp -rp [wrfv4.1 or wpsv4.1] /~
+* This command copies the relevant directories named in the command to
 /glade/u/home/bmoose
-  Move data from Derecho to local system using:
-scp -r bmoose@derecho.hpc.ucar.edu:/glade/u/home/bmoose/[wrfv4.1 or wpsv4.1] C:/users/benja/WRF
-	Enter password and 2FA when prompted.
-Now the executables are both within the home directory on Derecho and on my local computer
+* Move data from Derecho to local system using:
+	* scp -r bmoose@derecho.hpc.ucar.edu:/glade/u/home/bmoose/[wrfv4.1 or wpsv4.1] C:/users/benja/WRF
+	* Enter password and 2FA when prompted.
+* Now the executables are both within the home directory on Derecho and on my local computer
 
 (3) Download data for the WPS preprocessing system
   Created directory called DATA both in /glade/u/home/bmoose and my local laptop.
