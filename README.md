@@ -6,9 +6,9 @@ Derecho / WRF How-To Guide
 **Run in WSL Ubuntu**
 
 (1) Log in to Derecho
-  \n Open a terminal / command prompt window and connect to Derecho via the following command:
-ssh -XY bmoose@derecho.hpc.ucar.edu
-  Enter password for NCAR account when prompted and complete two-factor authentication.
+* Open a terminal / command prompt window and connect to Derecho via the following command:
+* ssh -XY bmoose@derecho.hpc.ucar.edu
+  * Enter password for NCAR account when prompted and complete two-factor authentication.
 
 (2) Copy the WRF and WPS executables to your home directory
   Once within Derecho, change directories to the location of the WRF and WPS executables:
