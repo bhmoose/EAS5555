@@ -1,7 +1,7 @@
 # EAS5555
 
 Ben Moose
-Derecho / WRF How-To Guide
+Derecho / WRF How-To Guide \
 Information from online tutorial and related documents / sites, WRF forums
 
 (1) Log in to Derecho
