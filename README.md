@@ -2,6 +2,7 @@
 
 Ben Moose
 Derecho / WRF How-To Guide
+Information from online tutorial and related documents / sites, WRF forums
 
 (1) Log in to Derecho
 * Open a terminal / command prompt window and connect to Derecho via the following command:
