@@ -3,8 +3,6 @@
 Ben Moose
 Derecho / WRF How-To Guide
 
-**Run in WSL Ubuntu**
-
 (1) Log in to Derecho
 * Open a terminal / command prompt window and connect to Derecho via the following command:
 * ssh -XY bmoose@derecho.hpc.ucar.edu
