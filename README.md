@@ -25,8 +25,10 @@ Derecho / WRF How-To Guide
 * Existing vtables are stored at …/wpsv4.1/ungrib/Variable_Tables
 * Linking to a vtable is done using the command:
 	* ln -sf [path_to_vtable] [name_of_link (in this case, Vtable)]
+	* Should see Vtable link inside wpsv4.1
 * Run the following to create standard names (GRIBFILE.AAA, GRIBFILE.AAB, etc.) and link the GRIB files from the DATA directory (ran command from within wpsv4.1 directory):
 	* ./link_grib.csh [path_to_data]/matthew/fnl ← shared prefix of data files. No need for a wild card character (*) as noted in tutorial.
+   	* Should see GRIBFILE.AAA, GRIBFILE.AAB, ... inside wpsv4.1 directory
 
 (4) Modify namelist.wps
 * Use vim namelist.wps to enter text editor within namelist.wps file, edit by typing I to enter insert mode and then :wq to save changes and leave file.
