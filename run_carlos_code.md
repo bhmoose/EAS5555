@@ -4,6 +4,7 @@
 `if [ -f ~/.bashrc ]; then\
         `. ~/.bashrc`\
  `fi`\
+![image](https://github.com/bhmoose/EAS5555/assets/143351355/b33a9abc-5b62-46c9-b24a-70b630f4daea)
 
 PATH=$PATH:.
 export PATH`
