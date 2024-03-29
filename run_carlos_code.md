@@ -14,6 +14,6 @@
 (12) If doing a multiple domain simulation, change the CA-MX input files to include domain 2 info and the CA-MX-CO files to include domain 3 info.\
 (13) Run `go.loop.csh`. As with `get.loop.ope.csh`, this should work without the `./`. Otherwise, something is probably wrong (double check PATH set and exported).\
 (14) Wait for the script to complete and job to run. If your qstat is blank almost immediately, something is probably wrong\
-(15) WPS-related files (GRIBFILE.AAA, met_em.d01.___, geo_em.___ and all the other ones from the tutorial) should be in `/glade/derecho/scratch/<username>/wrf_model/Hurr_Patr-2015_D3/PRE_COMPILED_CODE/wpsv4.0.1/<your_case_date>`\
+(15) WPS-related files (files starting with GRIBFILE., met_em.d01., geo_em. and all the other ones from the tutorial) should be in `/glade/derecho/scratch/<username>/wrf_model/Hurr_Patr-2015_D3/PRE_COMPILED_CODE/wpsv4.0.1/<your_case_date>`\
 (16) WRFout files and error/log files should be in `/glade/derecho/scratch/<username>/wrf_model/Hurr_Patr-2015_D3/PRE_COMPILED_CODE/wrfv4.0.1/<your_case_date>/test/em_real`\
 NOTE: The "Hurr_Patr-2015_D3" is the case name and can be changed near the top of the `go.loop.csh` file\
