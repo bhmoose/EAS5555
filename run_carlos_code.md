@@ -10,7 +10,7 @@
 (8) Verify that the data you requested exists in scratch directory.\
 (9) cd into gowrf directory, do the two line command to add PATH variable from Carlos' github.\
 (10) Adjust the `dates.loop.5dy.Oct.2016.txt` file to exactly match the contents of its counterpart in the getope directory.\
-(11) If doing a single domain simulation, change other details of simulation (NOT time) in `namelist.FRM-CA.wps` and   `namelist.FRM-CA.input`. If you just want to get something to run, just keep it how it is for now.\
+(11) If doing a single domain simulation, change other details of simulation (NOT date/time, this is done automatically) in `namelist.FRM-CA.wps` and   `namelist.FRM-CA.input`. If you just want to get something to run, just keep it how it is for now.\
 (12) If doing a multiple domain simulation, change the CA-MX input files to include domain 2 info and the CA-MX-CO files to include domain 3 info.\
 (13) Run `go.loop.csh`. As with `get.loop.ope.csh`, this should work without the `./`. Otherwise, something is probably wrong (double check PATH set and exported).\
 (14) Wait for the script to complete and job to run. If your qstat is blank almost immediately, something is probably wrong\
